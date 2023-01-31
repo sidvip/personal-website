@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Moon+Dance:400,700');
+
+// Update Bulma's global variables
+$family-sans-serif: "Raleway", sans-serif;
+// $box-radius: 80px;
+// $radius-large: 80px;
+// Update some of Bulma's component variables
+$modal-background-background-color: transparent;
+$body-size: 16px;
+$container-max-width: 2000px;
+$container-offset: 0px;
+// $navbar-background-color: rgb(152, 214, 241);
+$navbar-box-shadow-color: black;
+$navbar-box-shadow-size: 0 10rem 10 0;
+// Import only what you need from Bulma
