@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useState } from "react";
+
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Typed from 'react-typed';
 
@@ -9,7 +10,7 @@ export default function NavBar() {
     return (
         <nav className="navbar sticky -top-5" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
-                <Link className="navbar-item" to="/v2">
+                <Link className="navbar-item" to="/">
                     <span className="name-logo bounce">S</span>
                     <Typed className='name' strings={['Siddhartha Vibhu Pharswan']} typeSpeed={100} backSpeed={100} loop />
                 </Link>
@@ -26,15 +27,15 @@ export default function NavBar() {
 
             <div id="web-nav" className={"navbar-menu " + (isMenuOpen ? 'is-active' : "")}>
                 <div className="navbar-end flex gap-2">
-                    <Link className="navbar-item" to='/v2'>
+                    <Link className="navbar-item" to='/'>
                         Home
                     </Link>
 
-                    <Link className="navbar-item" to="/v2/cv">
+                    <Link className="navbar-item" to="/cv">
                         CV
                     </Link>
 
-                    <Link className="navbar-item" to='/v2/contact'>
+                    <Link className="navbar-item" to='/contact'>
                         Contact
                     </Link>
 
