@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/v2/static/css/main.89c7f2bc.css",
-    "main.js": "/v2/static/js/main.a739dbbe.js",
-    "static/media/fontawesome-webfont.svg?v=4.7.0": "/v2/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
-    "static/media/fontawesome-webfont.eot": "/v2/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
-    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/v2/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
-    "static/media/sid.jpg": "/v2/static/media/sid.3d173157d2d96ca854e5.jpg",
-    "static/media/fontawesome-webfont.woff?v=4.7.0": "/v2/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
-    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/v2/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "index.html": "/v2/index.html",
-    "main.89c7f2bc.css.map": "/v2/static/css/main.89c7f2bc.css.map",
-    "main.a739dbbe.js.map": "/v2/static/js/main.a739dbbe.js.map"
+    "main.css": "/static/css/main.e1ac5f42.css",
+    "main.js": "/static/js/main.d1247756.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/sid.jpg": "/static/media/sid.3d173157d2d96ca854e5.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/index.html",
+    "main.e1ac5f42.css.map": "/static/css/main.e1ac5f42.css.map",
+    "main.d1247756.js.map": "/static/js/main.d1247756.js.map"
   },
   "entrypoints": [
-    "static/css/main.89c7f2bc.css",
-    "static/js/main.a739dbbe.js"
+    "static/css/main.e1ac5f42.css",
+    "static/js/main.d1247756.js"
   ]
 }
