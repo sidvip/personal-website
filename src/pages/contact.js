@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaMobileAlt, FaLinkedin, FaGithub, FaWhatsappSquare, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaWhatsappSquare, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { MdLocationPin } from 'react-icons/md';
 import { IoMdMail } from 'react-icons/io';
 import { ImMobile } from 'react-icons/im';
