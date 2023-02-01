@@ -51,9 +51,10 @@ const META = {
             company: 'Paytm Money',
             duration: 'April, 2022 - June, 2022',
             designation: 'Senior Software Engineer',
-            responsibilities: ['Worked on Working on Equity Charts section, which displays the real time NSE/BSE data of different companies\' stock with \
-            detailed information', 'Using Plain JS and Lightwieght chart library developing the equity charts for Paytm Money App. Also involved in \
-            writing unit tests', 'Worked on Agile Methodology using tools like JIRA, Gitlab, Confluence etc',
+            responsibilities: [
+                'Worked on Working on Equity Charts section, which displays the real time NSE/BSE data of different companies stock with detailed information',
+                'Using Plain JS and Lightwieght chart library developing the equity charts for Paytm Money App. Also involved in writing unit tests',
+                'Worked on Agile Methodology using tools like JIRA, Gitlab, Confluence etc',
                 'Co-ordinated with Product Managers for new features and bugs coming from customer side'],
             techStack: ['Javascript', 'HTML5', 'CSS3', 'Lightweight Chart', 'JIRA', 'Confluence', 'Gitlab'],
         },
