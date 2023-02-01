@@ -1,6 +1,6 @@
 import * as React from 'react';
 import '../scss/landing-page.scss';
-import Background from '../components/background';
+// import Background from '../components/background';
 import { useSpring, animated } from 'react-spring';
 import NavBar from './nav-bar';
 import selfImg from '../images/sid.jpg';
@@ -63,7 +63,7 @@ export default function LandingPage() {
 
     return (
         <div style={{ position: 'relative' }}>
-            <Background />
+            {/* <Background /> */}
             <div style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, overflow: 'auto' }}>
                 <div className="hero-body h-full ">
                     <div className="container h-full" >
