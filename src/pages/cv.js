@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import moment from "moment";
 import { FaAward, FaBriefcase, FaCode } from 'react-icons/fa';
 import META from "./cv.meta";
 function FormattedSectionHOC(props) {
@@ -97,15 +98,37 @@ function WorkEx() {
 
 export default function CV() {
 
+    function calculatePreciseExperience() {
+        const dateOne = moment([new Date().getFullYear(), new Date().getMonth() + 1, new Date().getDate()]);
+        const dateTwo = moment([2018, 7, 12]);
+        const years = dateOne.diff(dateTwo, 'years');
+        dateTwo.add(years, 'years');
+        const months = dateOne.diff(dateTwo, 'months')
+        dateTwo.add(months, 'months');
+        const days = dateOne.diff(dateTwo, 'days');
+
+        return years + " years, " + months + " months, " + days + " days"
+    }
+
     return (
-        <div className="columns">
-            <div className="column is-half">
-                <WorkEx />
+        <div className="container">
+            <div className="container sticky top-8 z-10">
+                <div className="notification mt-2 is-light columns h-max-content">
+                    <span className="column has-text-link title is-4 flex justify-start">Software Engineer</span>
+                    <span className="column has-text-success flex justify-end">
+                        Total Experience: {calculatePreciseExperience()}
+                    </span>
+                </div>
             </div>
-            <div className="column">
-                <Education />
-                <Achievements />
-                <Projects />
+            <div className="columns">
+                <div className="column is-half">
+                    <WorkEx />
+                </div>
+                <div className="column">
+                    <Education />
+                    <Achievements />
+                    <Projects />
+                </div>
             </div>
         </div>
     )

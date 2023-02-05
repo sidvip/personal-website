@@ -52,31 +52,31 @@ export default function NavBar() {
                         CV
                     </Link>
 
-                    <Link className="navbar-item" to='/contact'>
-                        Contact
-                    </Link>
-
                     <div className="navbar-item has-dropdown is-hoverable">
                         <a className="navbar-link">
                             Portfolio
                         </a>
 
                         <div className="navbar-dropdown is-right is-boxed">
-                            <a className="navbar-item">
-                                About
-                            </a>
-                            <a className="navbar-item">
-                                Jobs
-                            </a>
-                            <a className="navbar-item">
-                                Contact
-                            </a>
-                            <hr className="navbar-divider" />
-                            <a className="navbar-item">
-                                Report an issue
-                            </a>
+                            <Link className="navbar-item" to='/portfolio/robot-grasping'>
+                                Robot Grasping - IROS
+                            </Link>
+                            <Link className="navbar-item" to='/portfolio/robot-projects'>
+                                Robotics Projects
+                            </Link>
+                            {/* <Link className="navbar-item" to='/portfolio/achievements-folio'>
+                                Achievements
+                            </Link>
+                            <Link className="navbar-item" to='/portfolio/hands-on'>
+                                Hands-On Projects
+                            </Link> */}
+                            {/* <hr className="navbar-divider" /> */}
                         </div>
                     </div>
+
+                    <Link className="navbar-item" to='/contact'>
+                        Contact
+                    </Link>
                 </div>
             </div>
         </nav>

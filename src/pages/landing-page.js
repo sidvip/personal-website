@@ -62,7 +62,7 @@ export default function LandingPage() {
     );
 
     return (
-        <div style={{ position: 'relative' }}>
+        <div style={{ position: 'relative', }}>
             {/* <Background /> */}
             <div style={{ width: '100%', height: '100vh', position: 'absolute', top: 0, overflow: 'auto' }}>
                 <div className="hero-body h-full ">

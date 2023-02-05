@@ -83,6 +83,7 @@ const META = {
     projects: {
         'Bitbucket Repository Downloader - npm package.': 'Node.JS, OAuth, Express',
         '3D Factory': 'MERN',
+        'Google Chrome Extension': 'Javascript',
         'Ticket Booking System': 'MySQl, JAVA',
         'Chat Client Application': 'JAVA, MySQL',
         'AI Chatbot to review Windchill PRs': 'Python, NodeJS, MySQL'
